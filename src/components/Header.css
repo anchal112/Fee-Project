@@ -1,0 +1,25 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Changed to space-between to add space between logo and links */
+    background-color: rgb(35, 27, 27);
+    padding-bottom: 10px;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    margin-left: 2rem; /* Pushes the ul to the right */
+}
+
+.navbar ul li a {
+    margin-left: 4rem; /* Adjusted margin */
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}

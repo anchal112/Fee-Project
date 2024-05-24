@@ -1,0 +1,34 @@
+.saved-coins-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+  .saved-coin-card {
+    background-color: #a7a3a3;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center align items */
+  }
+  
+  .saved-coin-card .image img {
+    width: 80px; /* Set a fixed width */
+    height: 80px; /* Set a fixed height */
+    border-radius: 5px;
+    margin-bottom: 10px; /* Add some space below the image */
+  }
+  
+  .saved-coin-card .name {
+    font-weight: bold;
+    color: #333; /* Uncommented the color property */
+    text-align: center; /* Center align text */
+  }
+  
+  .saved-coin-card .name a {
+    color: #333;
+    text-decoration: none;
+  }
+  
